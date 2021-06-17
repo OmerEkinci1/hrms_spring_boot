@@ -1,5 +1,8 @@
 package kodlamaio.hr.business.abstracts;
 
-public interface EmployeeService {
+import kodlamaio.hr.core.utilities.results.Result;
+import kodlamaio.hr.entities.concretes.Employee;
 
+public interface EmployeeService {
+	Result add(Employee employee);
 }
